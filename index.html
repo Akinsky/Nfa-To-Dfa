@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="drawer.js"></script>
+</head>
+
+<body
+  style="padding: 25px;background: black;margin: 0 30px 100px 30px;font: 14px/18px 'Lucida Grande', 'Segoe UI', sans-serif;">
+  <center>
+    <h1 style="color: white;font-size: 50px;margin-bottom: 50px;">Nfa To Dfa Algorithm</h1>
+    <canvas id="canvas" style="background: white;margin-bottom: 50px;" width="800" height="600">
+    </canvas>
+    <div style="max-width: 864px;text-align: left; color: white;">
+      <ul>
+        <li><b>Add a state:</b> double-click on the canvas</li>
+        <li><b>Add an arrow:</b> shift-drag on the canvas</li>
+        <li><b>Move something:</b> drag it around</li>
+        <li><b>Delete something:</b> click it and press the delete key (not the backspace key)</li>
+        <li><b>Make accept state:</b> double-click on an existing state</li>
+        <li><b>Make initial state:</b> double-click on an existing state with ctrl</li>
+        <li><b>Type numeric subscript:</b> put an underscore before the number (like "S_0")</li>
+        <li><b>Type greek letter:</b> put a backslash before it (like "\epsilon")</li>
+      </ul>
+    </div>
+    <button id="convertToDfa" type="submit" style="width:864px;">Convert To Dfa</button>
+    <br>
+    <textarea style="width: 864px; height:400px;" id="output"></textarea>
+  </center>
+</body>
+
+</html>
