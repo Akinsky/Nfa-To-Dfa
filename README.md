@@ -3,6 +3,7 @@
 For using this codes [tekincancakal.github.io/Nfa-To-Dfa/](https://tekincancakal.github.io/Nfa-To-Dfa/)
 ![Example](https://raw.githubusercontent.com/TekincanCakal/Nfa-To-Dfa/main/Example.png?raw=true)
 #Output Of Example Image
+
 ε-Closure(q0) = {q0, q3} = A 
 Process A({q0, q3})
       MoveDFA(A,0)=ε-Closure(MoveNFA(A,0)) = ε-Closure({q0, q3}) = {q0, q3} = undefined
